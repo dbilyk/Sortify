@@ -1,0 +1,1 @@
+Start the node process on the server in the root directory of the app.
