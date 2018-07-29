@@ -8,13 +8,17 @@ import {
 import logo from './logo.svg';
 import './App.css';
 
+import Header from "./components/Header"
+import LoginView from "./containers/views/LoginView"
+
 
 class App extends Component {
   render() {
     return (
       <Router>
       <div className="App">
-        this means react has loaded!
+        <Header />
+        <Route exact path="/login" component={LoginView} />
       </div>
       </Router>
     );

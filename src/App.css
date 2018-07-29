@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family:"Raleway";
 }
 
 .App-logo {
@@ -25,4 +26,47 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.color-1{
+  background-color: #FC9F5B;
+}
+
+.color-2{
+  background-color:#FBD1A2;
+}
+.color-3{
+  background-color:#F7F6EF;
+}
+.color-4{
+  background-color:#7DCFB6;
+}
+.color-5{
+  background-color:#1A535C;
+}
+
+.txt-light{
+  color:#F7F6EF;
+}
+
+.txt-dark{
+  color:#333;
+}
+
+h5{
+  font-weight:800;
+  opacity:0.8;
+  font-family: "anton";
+}
+
+a{
+  text-decoration: none;
+  transition:all 0.3s;
+  color:#444;
+  opacity:1;
+}
+a:hover{
+  opacity:0.7; 
+  color:#1A535C;
+  text-decoration: none;
 }

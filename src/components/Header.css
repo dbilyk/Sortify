@@ -1,0 +1,16 @@
+.header{
+  box-shadow: 4px 4px 8px #00000033;
+  margin-bottom:32px;
+}
+
+.appTitle{
+  font-family: "Anton";
+  font-size: 40px;
+  opacity:0.5;
+  margin-left:16px;
+  margin-top:8px;
+}
+
+.navLink{
+  max-width:10px;
+}
