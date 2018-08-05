@@ -1,6 +1,5 @@
 .header{
-  box-shadow: 4px 4px 8px #00000033;
-  margin-bottom:32px;
+  background-color:#A0DDE6;
 }
 
 .appTitle{
@@ -12,5 +11,5 @@
 }
 
 .navLink{
-  max-width:10px;
+  padding-right:32px;
 }

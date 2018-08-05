@@ -4,7 +4,9 @@ import "./CTA.css"
 
 const CTA = ({type, value, callback})=>{
   return (
-    <button className={(type=="secondary")?"btn btn-secondary color-4 txt-dark col-6":"btn btn-primary color-1 col-6"} onClick={callback}>{value}</button>
+    <div className="row">
+    <button className={(type=="secondary")?"col btn btn-secondary txt-dark":"col btn btn-primary"} onClick={callback}>{value}</button>
+    </div>
   )
 }
 

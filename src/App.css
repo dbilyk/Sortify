@@ -1,6 +1,7 @@
 .App {
   text-align: left;
-  font-family:"Raleway";
+  font-family:"Roboto";
+  padding:0;
 }
 
 .App-logo {

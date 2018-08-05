@@ -1,0 +1,25 @@
+.loginView{
+  max-width:980px;
+  /* Rectangle 10: */
+background-image: linear-gradient(-180deg, #FFFFFF 14%, #DFF5FF 100%);margin:0 auto;
+  min-height:100vh;
+  padding:40px;
+}
+
+.logo{
+  margin:0 auto;
+  margin-top:16px;
+  height:100%;
+  padding:16px;
+}
+
+h1{
+  font-family:"Roboto";
+  font-weight:800;
+  margin-top:24px;
+  display:inline-block;
+}
+
+p{
+  margin-top:16px;
+}
